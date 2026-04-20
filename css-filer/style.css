@@ -1,0 +1,33 @@
+.Index{
+    background-color: #F5F5F5;
+    color: #222;
+    text-align: center;
+    justify-content: center;
+}
+.Fysiklär{
+    background-color: #FFF8E1;
+    color: #1F1F1F;
+    text-align: center;
+    justify-content: center;
+}
+.FysikTesta{
+    background-color: #121212;
+    color: #E5E5E5;
+    text-align: center;
+    justify-content: center;
+}
+
+
+button {
+    color: white;
+    border: none;
+    border-radius: 2px;
+    background-color: #3B82F6;
+    border-color: white;
+    border-width: 1px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 40px;
+    transition: transform(0.1s);
+
+}
