@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css-filer/style.css">
     <title>Fysiklär</title>
 </head>
 
@@ -16,6 +17,8 @@
                     <li><a href="../html-filer/Index.html"><button>Start</button></a></li>
                     <li><a href="../html-filer/Fysiklär.html"><button>Lär dig fysik</button></a></li>
                     <li><a href="../html-filer/FysikTesta.html"><button>Testa dig på Fysik</button></a></li>
+                    <li><Button id="SignInBtn">Logga in</Button></li>
+                    <li><Button id="SignUpBtn">Registrera</Button></li>
                 </ul>
             </section>
             <div class="Rubrik">
@@ -23,8 +26,32 @@
             </div>
         </nav>
     </header>
-
-    <script src="../JavaScript/Fysik.js"></script>
+    <div class="FormBox"> <!-- Panelen för att registrera sig -->
+        <form id="SignupForm" style="display: none;">
+            <label for="username">Username:</label>
+            <input type="text" id="regusername" name="username">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="regpassword" name="password">
+            <br>
+            <label for="conpassword">Confirm Password:</label>
+            <input type="password" id="regconpassword" name="conpassword">
+            <br>
+            <input type="submit" value="Registrera">
+        </form>
+    </div>
+    <div class="FormBox"> <!-- Panelen för att logga in -->
+        <form id="LoginForm" style="display: none;">
+            <label for="username">Username:</label>
+            <input type="text" id="logusername" name="username">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="logpassword" name="password">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="../JavaScript/JavaScript.js"></script>
 
 </body>
 

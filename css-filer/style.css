@@ -1,33 +1,73 @@
 .Index{
-    background-color: #F5F5F5;
+    background-color: antiquewhite;
     color: #222;
     text-align: center;
     justify-content: center;
 }
 .Fysiklär{
-    background-color: #FFF8E1;
+    background-color: antiquewhite;
     color: #1F1F1F;
     text-align: center;
     justify-content: center;
 }
 .FysikTesta{
-    background-color: #121212;
-    color: #E5E5E5;
+    background-color:antiquewhite;
+    color: #1F1F1F;
     text-align: center;
     justify-content: center;
 }
 
+nav ul {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.Navigation {
+    background-color: #FFF8E1;
+}
+
+.Homebtn {
+    color: white;
+}
 
 button {
-    color: white;
+    background-color: #FFF8E1;
+    color: black;
     border: none;
     border-radius: 2px;
-    background-color: #3B82F6;
-    border-color: white;
+    border-color: 0px 0px 5px 1px white;
     border-width: 1px;
     box-sizing: border-box;
     width: 100px;
     height: 40px;
     transition: transform(0.1s);
 
+}
+
+button:hover {
+    background-color: whitesmoke;
+    transform: scale(1.05);
+}
+
+#Loggain,
+#SkapaKontot {
+    border: 1px solid white;
+    border-width: 3px;
+    box-sizing: border-box;
+    border-color: 0px 0px 5px 1px white;
 }
