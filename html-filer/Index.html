@@ -1,57 +1,164 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css-filer/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css-filer/style.css" />
     <title>Fysik</title>
-</head>
+  </head>
 
-<body class="Index">
+  <body class="Index">
     <header>
-
-        <nav>
-            <section class="Navigation"><!-- Navigation, den vägleder användaren till andra webbsidor-->
-                <ul>
-                    <li><a class="Homebtn" href="../html-filer/Index.html"><button>Start</button></a></li>
-                    <li><a href="../html-filer/Fysiklär.html"><button>Lär dig fysik</button></a></li>
-                    <li><a href="../html-filer/FysikTesta.html"><button>Testa dig på Fysik</button></a></li>
-                    <li><Button id="Loggain">Logga in</Button></li>
-                    <li><Button id="SkapaKontot">Registrera</Button></li>
-                </ul>
-            </section>
-            <div class="Rubrik">
-                <h1>Välkommen</h1>
-            </div>
-        </nav>
+      <nav>
+        <section class="Navigation">
+          <!-- Navigation, den vägleder användaren till andra webbsidor-->
+          <ul>
+            <li>
+              <a class="Homebtn" href="../html-filer/Index.html"
+                ><button>Start</button></a
+              >
+            </li>
+            <li>
+              <a href="../html-filer/Fysiklär.html"
+                ><button>Lär dig fysik</button></a
+              >
+            </li>
+            <li>
+              <a href="../html-filer/FysikTesta.html"
+                ><button>Testa dig på Fysik</button></a
+              >
+            </li>
+            <li><button id="Loggain">Logga in</button></li>
+            <li><button id="SkapaKontot">Registrera</button></li>
+          </ul>
+        </section>
+        <div class="Rubrik">
+          <h1>Newtons lagar - grundläggande fysik</h1>
+          <p>
+            Newtons lagar beskriver hur krafter påverkar rörelse. De
+            formulerades av Isaac Newton på 1600-talet och är grunden för
+            klassisk mekanik.
+          </p>
+        </div>
+      </nav>
     </header>
-    <div class="FormBox"> <!-- Panelen för att registrera sig -->
-        <form id="SignupForm" style="display: none;">
-            <label for="username">Username:</label>
-            <input type="text" id="regusername" name="username">
-            <br>
-            <label for="password">Password:</label>
-            <input type="password" id="regpassword" name="password">
-            <br>
-            <label for="conpassword">Confirm Password:</label>
-            <input type="password" id="regconpassword" name="conpassword">
-            <br>
-            <input type="submit" value="Registrera">
-        </form>
+    <div class="FormBox">
+      <!-- Panelen för att registrera sig -->
+      <form id="SignupForm" style="display: none">
+        <label for="username">Username:</label>
+        <input type="text" id="regusername" name="username" />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="regpassword" name="password" />
+        <br />
+        <label for="conpassword">Confirm Password:</label>
+        <input type="password" id="regconpassword" name="conpassword" />
+        <br />
+        <input type="submit" value="Registrera" />
+      </form>
     </div>
-    <div class="FormBox"> <!-- Panelen för att logga in -->
-        <form id="LoginForm" style="display: none;">
-            <label for="username">Username:</label>
-            <input type="text" id="logusername" name="username">
-            <br>
-            <label for="password">Password:</label>
-            <input type="password" id="logpassword" name="password">
-            <br>
-            <input type="submit" value="Submit">
-        </form>
+    <div class="FormBox">
+      <!-- Panelen för att logga in -->
+      <form id="LoginForm" style="display: none">
+        <label for="username">Username:</label>
+        <input type="text" id="logusername" name="username" />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="logpassword" name="password" />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
     </div>
-    <script src="../JavaScript/JavaScript.js"></script>
-</body>
 
+    <section class="grundläggande">
+      <div>
+        <h2>Newtons första lag (Tröghetslagen)</h2>
+        <p>
+          Ett föremål förblir i vila eller rör sig med konstant hastighet i en
+          rät linje, så länge ingen resulterande kraft verkar på det.
+        </p>
+
+        <p>Detta betyder att:</p>
+
+        <p>Ett stillastående föremål fortsätter vara stilla</p>
+        <p>
+          Ett rörligt föremål fortsätter röra sig i samma hastighet och riktning
+        </p>
+
+        <p>
+          <strong>Exempel:</strong><br />
+          En boll ligger stilla tills någon sparkar på den.
+        </p>
+        <img src="../Bilder/bild1.jpg" alt="XX" class="bilder" />
+      </div>
+      <div>
+        <h2>Newtons andra lag (Kraftlagen)</h2>
+        <p>Kraft är lika med massa gånger acceleration (F = ma).</p>
+
+        <p>Detta betyder att:</p>
+
+        <p>Större kraft ger större acceleration</p>
+        <p>Större massa gör det svårare att ändra rörelse</p>
+
+        <p>
+          <strong>Exempel:</strong><br />
+          Det är lättare att knuffa en cykel än en bil.
+        </p>
+        <img src="" alt="XX" class="bilder" />
+      </div>
+      <div>
+        <h2>Newtons tredje lag (Kraft och motkraft)</h2>
+        <p>
+          När ett föremål påverkar ett annat med en kraft, påverkar det andra
+          tillbaka med en lika stor men motsatt riktad kraft.
+        </p>
+
+        <p>Detta betyder att krafter alltid uppträder i par.</p>
+
+        <p>
+          <strong>Exempel:</strong><br />
+          När du hoppar trycker du ner mot marken och marken trycker dig uppåt.
+        </p>
+        <img src="" alt="XX" class="bilder" />
+      </div>
+      <div>
+        <h2>Nollte lagen (Termodynamik)</h2>
+        <p>
+          Om två system är i termisk jämvikt med ett tredje system, så är de
+          också i termisk jämvikt med varandra.
+        </p>
+
+        <p>Detta betyder att:</p>
+        <p>Temperatur kan jämföras mellan olika objekt</p>
+        <p>Det är grunden för hur termometrar fungerar</p>
+        <p>
+          <strong>Exempel:</strong><br />
+          Om en termometer visar samma temperatur i två olika vätskor, har de
+          samma temperatur.
+        </p>
+        <img src="" alt="XX" class="bilder" />
+      </div>
+      <div>
+        <h2>Gravitationslagen</h2>
+        <p>
+          Alla föremål med massa drar till sig varandra med en kraft som beror
+          på deras massa och avståndet mellan dem.
+        </p>
+
+        <p>Detta betyder att:</p>
+
+        <p>Större massor ger starkare dragningskraft</p>
+        <p>Längre avstånd ger svagare kraft</p>
+
+        <p>
+          <strong>Exempel:</strong><br />
+          Jorden drar till sig oss och håller oss kvar på marken.
+        </p>
+        <img src="" alt="XX" class="bilder" />
+      </div>
+    </section>
+    <br />
+    <p>Läs mera på <a href="Fysiklär.html">Lär dig fysik</a></p>
+    <script src="../JavaScript/JavaScript.js"></script>
+  </body>
 </html>

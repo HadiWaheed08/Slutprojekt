@@ -1,57 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css-filer/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css-filer/style.css" />
     <title>FysikTesta</title>
-</head>
+  </head>
 
-<body class="FysikTesta">
+  <body class="FysikTesta">
     <header>
-
-        <nav>
-            <section class="Navigation"><!-- Navigation, den vägleder användaren till andra webbsidor-->
-                <ul>
-                    <li><a href="../html-filer/Index.html"><button>Start</button></a></li>
-                    <li><a href="../html-filer/Fysiklär.html"><button>Lär dig fysik</button></a></li>
-                    <li><a href="../html-filer/FysikTesta.html"><button>Testa dig på Fysik</button></a></li>
-                    <li><Button id="SignInBtn">Logga in</Button></li>
-                    <li><Button id="SignUpBtn">Registrera</Button></li>
-                </ul>
-            </section>
-        </nav>
-        <div class="Rubrik">
-            <h1>Testa dig på Fysik</h1>
-        </div>
+      <nav>
+        <section class="Navigation">
+          <!-- Navigation, den vägleder användaren till andra webbsidor-->
+          <ul>
+            <li>
+              <a href="../html-filer/Index.html"><button>Start</button></a>
+            </li>
+            <li>
+              <a href="../html-filer/Fysiklär.html"
+                ><button>Lär dig fysik</button></a
+              >
+            </li>
+            <li>
+              <a href="../html-filer/FysikTesta.html"
+                ><button>Testa dig på Fysik</button></a
+              >
+            </li>
+            <li><button id="Loggain">Logga in</button></li>
+            <li><button id="SkapaKontot">Registrera</button></li>
+          </ul>
+        </section>
+      </nav>
+      <div class="Rubrik">
+        <h1>Testa dig på Fysik</h1>
+      </div>
     </header>
-    <div class="FormBox"> <!-- Panelen för att registrera sig -->
-        <form id="SignupForm" style="display: none;">
-            <label for="username">Username:</label>
-            <input type="text" id="regusername" name="username">
-            <br>
-            <label for="password">Password:</label>
-            <input type="password" id="regpassword" name="password">
-            <br>
-            <label for="conpassword">Confirm Password:</label>
-            <input type="password" id="regconpassword" name="conpassword">
-            <br>
-            <input type="submit" value="Registrera">
-        </form>
+    <div class="FormBox">
+      <!-- Panelen för att registrera sig -->
+      <form id="SignupForm" style="display: none">
+        <label for="username">Username:</label>
+        <input type="text" id="regusername" name="username" />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="regpassword" name="password" />
+        <br />
+        <label for="conpassword">Confirm Password:</label>
+        <input type="password" id="regconpassword" name="conpassword" />
+        <br />
+        <input type="submit" value="Registrera" />
+      </form>
     </div>
-    <div class="FormBox"> <!-- Panelen för att logga in -->
-        <form id="LoginForm" style="display: none;">
-            <label for="username">Username:</label>
-            <input type="text" id="logusername" name="username">
-            <br>
-            <label for="password">Password:</label>
-            <input type="password" id="logpassword" name="password">
-            <br>
-            <input type="submit" value="Submit">
-        </form>
+    <div class="FormBox">
+      <!-- Panelen för att logga in -->
+      <form id="LoginForm" style="display: none">
+        <label for="username">Username:</label>
+        <input type="text" id="logusername" name="username" />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="logpassword" name="password" />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
     </div>
     <script src="../JavaScript/JavaScript.js"></script>
-</body>
-
+  </body>
 </html>
