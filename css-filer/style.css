@@ -48,6 +48,23 @@ ul li{
     color: white;
 }
 
+.text{
+    filter: blur(4px);
+    user-select: none;
+    
+}
+.Lås {
+    filter: blur(4px);
+    user-select: none;
+}
+
+.bilder {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
 button {
     background-color: #FFF8E1;
     color: black;
