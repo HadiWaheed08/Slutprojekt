@@ -36,12 +36,9 @@ nav ul li a {
     color: black;
     text-decoration: none;
 }
-ul li{
-
-}
 
 .Navigation {
-    background-color: #FFF8E1;
+    background-color: antiquewhite;
 }
 
 .Homebtn {
@@ -66,7 +63,7 @@ ul li{
 }
 
 button {
-    background-color: #FFF8E1;
+    background-color: antiquewhite;
     color: black;
     border: none;
     border-radius: 2px;
@@ -84,13 +81,10 @@ button:hover {
     transform: scale(1.05);
 }
 
-#Loggain,
-#SkapaKontot {
+#SignUpBtn,
+#SignInBtn {
     border: 1px solid white;
     border-width: 3px;
     box-sizing: border-box;
     border-color: 0px 0px 5px 1px white;
-}
-.grundläggande{
-
 }
