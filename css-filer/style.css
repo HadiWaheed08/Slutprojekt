@@ -1,8 +1,12 @@
-.Index{
-    background-color: antiquewhite;
+*{
+    padding: 2px;
     color: #222;
     text-align: center;
     justify-content: center;
+}
+
+.Index{
+background-color: antiquewhite;
 }
 .Fysiklär{
     background-color: antiquewhite;
@@ -48,11 +52,15 @@ nav ul li a {
 .text{
     filter: blur(4px);
     user-select: none;
-    
+    border-color: 0px 0px 5px 1px white;
+    width: 500px;
+    gap: 20px;
 }
 .Lås {
     filter: blur(4px);
     user-select: none;
+    border-color: 0px 0px 5px 1px white;
+
 }
 
 .bilder {
@@ -60,6 +68,14 @@ nav ul li a {
     height: 400px;
     object-fit: cover;
     margin-top: 50px;
+}
+.box2 .bilder{
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 0;
 }
 
 button {
@@ -88,11 +104,28 @@ button:hover {
     box-sizing: border-box;
     border-color: 0px 0px 5px 1px white;
 }
-.container {
+.indexbody {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+}
+.fysiklärcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 90%;
+    margin: auto;
+}
+.box2{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .box {
