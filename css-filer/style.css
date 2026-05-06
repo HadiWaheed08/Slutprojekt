@@ -1,8 +1,8 @@
 *{
     padding: 2px;
     color: #222;
+    box-sizing: border-box;
     text-align: center;
-    justify-content: center;
 }
 
 .Index{
@@ -14,6 +14,7 @@ background-color: antiquewhite;
     text-align: center;
     justify-content: center;
 }
+
 .FysikTesta{
     background-color:antiquewhite;
     color: #1F1F1F;
@@ -51,24 +52,15 @@ nav ul li a {
 
 .text{
     user-select: none;
-    border-color: 0px 0px 5px 1px white;
-    width: 500px;
-    gap: 20px;
+    border-color: white;
+    text-align: left;
 }
 .Lås {
     user-select: none;
-    border-color: 0px 0px 5px 1px white;
+    border-color: white;
 
 }
 
-.box2 .bilder{
-    width: 100%;
-    max-width: 1000px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 20px;
-    margin-top: 0;
-}
 
 button {
     background-color: antiquewhite;
@@ -109,13 +101,21 @@ button:hover {
     width: 90%;
     margin: auto;
 }
+.box2 .bilder{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
 .box2{
-    display: flex;
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     gap: 40px;
+    align-items: center;
     background-color: antiquewhite;
     border-radius: 20px;
-    padding: 15px;
+    padding: 20px;
 }
 
 .box {
@@ -125,6 +125,7 @@ button:hover {
   padding: 15px;
   width: 250px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  
 }
 
 .box h2 {
@@ -133,4 +134,18 @@ button:hover {
 }
 .Fysiklär h2 {
     margin-bottom: 0;
+}
+@media (max-width: 768px) {
+    .box2 {
+        grid-template-columns: 1fr;
+    }
+
+    .text {
+        order: 1;
+        text-align: left;
+    }
+
+    .Lås {
+        order: 2;
+    }
 }
