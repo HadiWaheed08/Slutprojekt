@@ -1,6 +1,5 @@
 *{
     padding: 2px;
-    color: #222;
     box-sizing: border-box;
     text-align: center;
 }
@@ -58,10 +57,7 @@ nav ul li a {
 .Lås {
     user-select: none;
     border-color: white;
-
 }
-
-
 button {
     background-color: antiquewhite;
     color: black;
@@ -73,7 +69,6 @@ button {
     width: 100px;
     height: 40px;
     transition: transform(0.1s);
-
 }
 
 button:hover {
@@ -135,6 +130,14 @@ button:hover {
 .Fysiklär h2 {
     margin-bottom: 0;
 }
+
+.Footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 18px;
+}
+
 @media (max-width: 768px) {
     .box2 {
         grid-template-columns: 1fr;
