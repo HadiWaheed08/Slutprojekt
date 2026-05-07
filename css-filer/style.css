@@ -1,39 +1,19 @@
-*{
+* {
     padding: 2px;
-    box-sizing: border-box;
     text-align: center;
 }
 
-.Index{
-background-color: antiquewhite;
-}
-.Fysiklär{
+body {
     background-color: antiquewhite;
-    color: #1F1F1F;
-    text-align: center;
-    justify-content: center;
-}
-
-.FysikTesta{
-    background-color:antiquewhite;
-    color: #1F1F1F;
-    text-align: center;
-    justify-content: center;
 }
 
 nav ul {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
     padding: 0;
     margin: 0;
     list-style: none;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-nav ul li {
-    margin: 0;
 }
 
 nav ul li a {
@@ -41,36 +21,16 @@ nav ul li a {
     text-decoration: none;
 }
 
-.Navigation {
-    background-color: antiquewhite;
-}
-
-.Homebtn {
-    color: white;
-}
-
-.text{
-    user-select: none;
-    border-color: white;
-    text-align: left;
-}
-.Lås {
-    user-select: none;
-    border-color: white;
-}
 button {
     background-color: antiquewhite;
     color: black;
-    border: none;
+    border: 1px solid white;
     border-radius: 2px;
-    border-color: 0px 0px 5px 1px white;
-    border-width: 1px;
-    box-sizing: border-box;
     width: 100px;
     height: 40px;
-    transition: transform(0.1s);
+    box-sizing: border-box;
+    transition: transform 0.1s;
 }
-
 button:hover {
     background-color: whitesmoke;
     transform: scale(1.05);
@@ -108,7 +68,6 @@ button:hover {
     grid-template-columns: 2fr 1fr;
     gap: 40px;
     align-items: center;
-    background-color: antiquewhite;
     border-radius: 20px;
     padding: 20px;
 }
@@ -120,7 +79,6 @@ button:hover {
   padding: 15px;
   width: 250px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  
 }
 
 .box h2 {
@@ -139,6 +97,16 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+    nav ul {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+    }
     .box2 {
         grid-template-columns: 1fr;
     }
