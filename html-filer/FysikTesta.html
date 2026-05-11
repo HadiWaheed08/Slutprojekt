@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css-filer/style.css" />
-    <script src="../JavaScript/JavaScript.js"></script>
     <title>Fysik-Kunskap</title>
   </head>
 
@@ -32,16 +31,18 @@
           </ul>
         </section>
       </nav>
+      <h1>Fysik Quiz</h1>
       <div class="FysikTestaContainer">
-        <h1>Fysik Quiz</h1>
-        <div id="quiz">
-          <div id="frågor"></div>
-          <div id="val"></div>
-          <button id="nextBtn">Nästa</button>
+        <div class="box3">
+          <div id="quiz">
+            <div id="frågor"></div>
+            <div id="val"></div>
+            <button id="nextBtn">Nästa</button>
+          </div>
+          <div id="resultat" class="hidden"></div>
+          <button id="StartaOmBtn" class="hidden">Starta om Quiz</button>
+          <div id="timer">Tid kvar: <span id="tid">30</span>s</div>
         </div>
-        <div id="resultat" class="hidden"></div>
-        <button id="StartaOmBtn" class="hidden">Starta om Quiz</button>
-        <div id="timer">Tid kvar: <span id="tid">30</span>s</div>
       </div>
     </header>
     <div class="FormBox">
@@ -72,8 +73,10 @@
       </form>
     </div>
 
-    <footer class="Footer">
-      <p>&copy; Fysik-Kunskap</p>
-    </footer>
+    <script src="../JavaScript/JavaScript.js"></script>
   </body>
+  <footer class="Footer">
+    <p>&copy; Fysik-Kunskap</p>
+    <!-- Visa att det min webbsida -->
+  </footer>
 </html>

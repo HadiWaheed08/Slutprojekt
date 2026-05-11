@@ -1,7 +1,56 @@
+//Skapar frågor samt val och rätta svaret
+const quizData = [
+{
+    frågor: "Vilken av följande är newtons första lag?",
+    vals: [
+        "a) Gravitationslagen",
+        "b) Kraft och motkraft",
+        "c) Kraftlagen",
+        "d) Tröghetslagen",
+    ],
+    correct: "d) Tröghetslagen",
+},
+{
+    frågor: "Vilken av följande är newtons tredje lag?",
+    vals: [
+        "a) Tröghetslagen",
+        "b) Termodynamik",
+        "c) Kraft och motkraft",
+        "d) Gravitationslagen",
+    ],
+    correct: "a) Kraft och motkraft",
+},
+{
+    frågor: "Vilken av följande är newtons andra lag?",
+    vals: [
+        "a) Kraft och motkraft",
+        "b) Tröghetslagen",
+        "c) Kraftlagen",
+        "d) Termodynamik",
+    ],
+    correct: "c) Kraftlagen",
+},
+{
+    frågor: "Vilken av följande är newtons nollte lag?",
+    vals: [
+        "a) Termodynamik",
+        "b) Kraftlagen",
+        "c) Kraft och motkraft",
+        "d) Gravitationslagen ",
+    ],
+    correct: "a) Termodynamik",
+},
+];
+
 //Skapar variabeler
 let username = null;
 let Loggedin = false;
 let timeoutId = null;
+let currentFrågor = 0;
+let score = 0;
+let timerLeft = 0;
+let timer;
+
 
 //Krypterar lösenordet så man kan inte bara läsa av lätt vad det är
 function hashPassword(password) {
@@ -29,6 +78,36 @@ const Upform = document.getElementById('SignupForm');
 const SignInbtn = document.getElementById('SignInBtn');
 const SignUpbtn = document.getElementById('SignUpBtn');
 const savedLogin = localStorage.getItem("Loggedin");
+const frågor = document.getElementById('frågor');
+const valbtn = document.getElementById('val');
+const nextBtn = document.getElementById('nextBtn');
+const resultat = document.getElementById('svar');
+const time = document.getElementById('timer');
+const StartaOmBtn = document.getElementById('StartaOmBtn');
+const quizContainer = document.getElementById('quiz');
+
+//
+function startQuiz(){
+    showFrågor();
+    nextBtn.style.display = "none";
+    resultat.classList.add("hidden");
+}
+/* Visar svar */
+function showFrågor(){
+    const f = quizData[currentFrågor];
+    frågor.textContent = f.frågor;
+
+    valbtn.innerHTML = "";
+    f.vals.forEach((val) => {
+        const btn = document.createElement("button");
+        btn.textContent = val;
+        btn.addEventListener("click", () => selectAnswer(btn, f.correct));
+        valbtn.appendChild(btn);
+    });
+}
+
+
+startQuiz();
 
 SignInbtn.addEventListener('click', function (event) {
     if (Loggedin == false) { //Kollar om man är redan inloggad, ifall man inte är ger den möjligheten att logga in
