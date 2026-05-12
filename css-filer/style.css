@@ -16,7 +16,7 @@ body {
 
 nav ul {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     padding: 0;
     margin: 0;
@@ -41,11 +41,6 @@ button {
 button:hover {
     background-color: whitesmoke;
     transform: scale(1.05);
-}
-
-#SignUpBtn,
-#SignInBtn {
-        border: 3px solid white;
 }
 .indexbody {
   display: flex;
