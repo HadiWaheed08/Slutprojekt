@@ -100,7 +100,7 @@ button:hover {
   backdrop-filter: blur(10px);
   padding: 2rem;
   border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
   text-align: center;
   flex-direction: column;
   transition: all 0.3s ease-in-out;
@@ -135,52 +135,58 @@ h1 {
   padding: 10px;
   height: 100px;
   width: 100%;
-  background: rgba(0, 255, 255, 0.08);
-  border: 2px solid #00ffff;
+  background: rgba(0,0,0,0.1);
+  border: 2px solid black;
   color: #ffffff;
   cursor: pointer;
   border-radius: 10px;
   font-weight: bold;
   transition: 0.3s;
-  box-shadow: 0 0 6px rgba(0, 255, 255, 0.2);
-  text-shadow: 0 0 5px rgba(0, 255, 255, 0.2);
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  text-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
 #val button:hover {
   transform: scale(1.03);
-  box-shadow: 0 0 12px rgba(0, 255, 255, 0.4);
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
 }
 #nextBtn, 
 #StartaOmBtn {
   margin-top: 1rem;
   padding: 0.6rem 1.2rem;
-  background-color: #00ffff;
-  color: #000;
+  background-color: rgba(0,0,0,0.1);
+  color: white;
   border: none;
   cursor: pointer;
   border-radius: 8px;
   font-weight: bold;
-  box-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
 }
 #nextBtn:hover, 
 #StartaOmBtn:hover {
-  background-color: #00e6e6;
+  background-color: grey;
   transform: scale(1.05);
-  box-shadow: 0 0 12px rgba(0, 255, 255, 0.5);
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
 }
-#resultat {
+#resultat,
+#resultat:hover {
+  background-color: gray;
   font-size: 1.4rem;
   margin-top: 1rem;
-  color: #00ffcc;
-  text-shadow: 0 0 10px #00ffcc;
+  color: white;
+  text-shadow: 0 0 10px black;
+
 }
 #timer {
   margin-top: 1rem;
   font-weight: bold;
   font-size: 1rem;
-  color: #00ffff;
-  text-shadow: 0 0 10px #00ffff;
+  color: white;
+  text-shadow: 0 0 10px gray;
+}
+#svar{
+  color: white;
 }
 .hidden {
   display: none;

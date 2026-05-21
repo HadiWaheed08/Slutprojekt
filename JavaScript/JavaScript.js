@@ -86,11 +86,11 @@ function selectAnswer(button, correctAnswer) {
         if(btn.textContent === correctAnswer){
             btn.style.borderColor = "#00FF00";
         }
-        if(btn.textConten === selected && selected !== correctAnswer) {
+        if(btn.textContent === selected && selected !== correctAnswer) {
             btn.style.borderColor = "#FF0000";
         }
     });
-    if(selectAnswer === correctAnswer) {
+    if(selected === correctAnswer) {
         score++;
     }
     nextBtn.style.display = "inline-block";
@@ -98,7 +98,7 @@ function selectAnswer(button, correctAnswer) {
 /* Nästa fråga */
 function nextFråga(){
     currentFrågor++;
-    if(currentFrågor < quizData){
+    if(currentFrågor < quizData.length){
         showFrågor();
         nextBtn.style.display = "none";
     } else {
