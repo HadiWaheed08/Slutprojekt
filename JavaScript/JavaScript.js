@@ -52,10 +52,32 @@ let timer;
 const frågor = document.getElementById('frågor');
 const valbtn = document.getElementById('val');
 const nextBtn = document.getElementById('nextBtn');
-const resultat = document.getElementById('svar');
-const time = document.getElementById('timer');
+const resultat = document.getElementById('resultat');
+const time = document.getElementById('tid');
 const StartaOmBtn = document.getElementById('StartaOmBtn');
 const quizContainer = document.getElementById('quiz');
+const feedbackForm = document.getElementById("feedbackForm");
+const feedbackResult = document.getElementById("feedbackResult");
+
+/* En feedback system för att skydda mot XSS*/
+feedbackForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    let username = document.getElementById("username").value;
+    let message = document.getElementById("message").value;
+
+    username = sanitizeInput(username);
+    message = sanitizeInput(message);
+
+    feedbackResult.textContent =
+        `Tack ${username}! Din feedback har skickats.`;
+
+    feedbackForm.reset();
+});
+
+function sanitizeInput(input) {
+    return input.replace(/[<>]/g, "");
+}
 
 //Startar quiz
 function startQuiz(){
