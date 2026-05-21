@@ -19,11 +19,11 @@ I min fysiktesta kan du testa dig på dina kunskaper inom fysik genom en quiz. D
 Jag har testat i 3 olika typer av webbplatser. Chrome, Microsoft edge och Firefox.
 
 ## Bilder
-![../Slutprojekt/Bilder/bildREADME.png](../Slutprojekt/Bilder/bildREADME.png)
-![alt Bilder](../Slutprojekt/Bilder/Skärmbild%201.png)
-![alt Bilder](../Slutprojekt/Bilder/Skärmbild%202.png)
-![alt Bilder](../Slutprojekt/Bilder/Skärmbild3.png)
-![alt Bilder](../Slutprojekt/Bilder/Skärmbild%204.png)
-![alt Bilder](../Slutprojekt/Bilder/Skärmbild%205.png)
-![alt Bilder](../Slutprojekt/Bilder/Skärmbild%206.png)
-![alt Bilder](../Slutprojekt/Bilder/Skärmbild%207.png)
+![alt Bilder](Bilder/bildREADME.png)
+![alt Bilder](Bilder/Skärmbild%201.png)
+![alt Bilder](Bilder/Skärmbild%202.png)
+![alt Bilder](Bilder/Skärmbild3.png)
+![alt Bilder](Bilder/Skärmbild%204.png)
+![alt Bilder](Bilder/Skärmbild%205.png)
+![alt Bilder](Bilder/Skärmbild%206.png)
+![alt Bilder](Bilder/Skärmbild%207.png)
