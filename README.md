@@ -16,7 +16,7 @@ I min fysiktesta kan du testa dig på dina kunskaper inom fysik genom en quiz. D
 
 ## Manuel tester
 
-Jag har testat i 3 olika typer av webbplatser. Chrome, Microsoft edge och Firefox.
+Jag har testat i 4 olika typer av webbplatser. Chrome, Microsoft edge och Firefox, och det funkar.
 
 ## Bilder
 ![alt Bilder](Bilder/bildREADME.png)

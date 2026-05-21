@@ -66,9 +66,11 @@ feedbackForm.addEventListener("submit", (e) => {
     let username = document.getElementById("username").value;
     let message = document.getElementById("message").value;
 
+    /* rensar inputten */
     username = sanitizeInput(username);
     message = sanitizeInput(message);
 
+    /* visar meddelandet */
     feedbackResult.textContent =
         `Tack ${username}! Din feedback har skickats.`;
 
@@ -76,7 +78,7 @@ feedbackForm.addEventListener("submit", (e) => {
 });
 
 function sanitizeInput(input) {
-    return input.replace(/[<>]/g, "");
+    return input.replace(/[<>@£${`|*'~¨^}]/g, "");
 }
 
 //Startar quiz
@@ -99,9 +101,10 @@ function showFrågor(){
         valbtn.appendChild(btn);
     });
 }
-/* Vad som händer när det rätt svar eller fel */
+/* kontrollerar ifall svaret är rätt */
 function selectAnswer(button, correctAnswer) {
     const selected = button.textContent;
+
 
     Array.from(valbtn.children).forEach((btn) => {
         btn.disabled = true;
@@ -112,6 +115,7 @@ function selectAnswer(button, correctAnswer) {
             btn.style.borderColor = "#FF0000";
         }
     });
+    /* Ökar poängen om det rätt svar */
     if(selected === correctAnswer) {
         score++;
     }
@@ -153,7 +157,7 @@ StartaOmBtn.classList.remove("hidden");
 
 nextBtn.addEventListener("click", nextFråga);
 
-
+/* Om man vill starta om quizzet */
 StartaOmBtn.addEventListener("click", () => {
     currentFrågor = 0;
     score = 0; 
@@ -164,5 +168,5 @@ StartaOmBtn.addEventListener("click", () => {
     time.textContent = timeLeft;
     startQuiz();
 });
-//
+/* startar quizzet direkt */
 startQuiz();
