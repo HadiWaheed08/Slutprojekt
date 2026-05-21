@@ -4,21 +4,22 @@ I min projekt kommer jag ha en main sida där jag förklarar basic infor och tv�
 
 ## Index
 
-I min index har jag basic info om vad jag kommer att prata om och dem sitter i boxes så att det tydligt och att allt finns i en sida så att man inte måste skrolla för att fortsätta läsa. längst nere har jag en länk till nästa sidan (fysiklär) där dem kan läsa mer. 
+I min index har jag basic info om vad jag kommer att prata om och dem sitter i boxes så att det tydligt och att allt finns i en sida så att man inte måste skrolla för att fortsätta läsa. längst nere har jag en länk till nästa sidan (fysiklär) där dem kan läsa mer.
 
 ## Fysiklär
 
-I min fysiklär sidan har jag text i 2/3 delar av min "box" och i den sista 1/3 finns bilden. När man har väl läst klart så kan man gå till quiz (fysiktesta) där man kan testa sig genom quiz. 
+I min fysiklär sidan har jag text i 2/3 delar av min "box" och i den sista 1/3 finns bilden. När man har väl läst klart så kan man gå till quiz (fysiktesta) där man kan testa sig genom quiz.
 
 ## FysikTesta
 
-I min fysiktesta kan du testa dig på dina kunskaper inom fysik genom en quiz. Du får fyra alternativ som du får välja mellan som du kan få resultat direkt efter quizzen så att du vet vad du måste lära dig. 
+I min fysiktesta kan du testa dig på dina kunskaper inom fysik genom en quiz. Du får fyra alternativ som du får välja mellan som du kan få resultat direkt efter quizzen så att du vet vad du måste lära dig.
 
 ## Manuel tester
 
 Jag har testat i 4 olika typer av webbplatser. Chrome, Microsoft edge och Firefox, och det funkar.
 
 ## Bilder
+
 ![alt Bilder](Bilder/bildREADME.png)
 ![alt Bilder](Bilder/Skärmbild%201.png)
 ![alt Bilder](Bilder/Skärmbild%202.png)
