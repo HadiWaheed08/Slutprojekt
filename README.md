@@ -16,7 +16,6 @@ I min fysiktesta kan du testa dig på dina kunskaper inom fysik genom en quiz. D
 
 ## Manuel tester och automatik tester
 
-<<<<<<< HEAD
 Jag har testat i 4 olika typer av webbplatser. Chrome, Microsoft edge och Firefox. Har fixat prettier och gjort det för alla html och css samt javascript.
 
 ## Bilder
