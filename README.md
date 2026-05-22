@@ -17,9 +17,11 @@ I min fysiktesta kan du testa dig på dina kunskaper inom fysik genom en quiz. D
 ## Manuel tester och automatik tester
 
 <<<<<<< HEAD
-Jag har testat i 3 olika typer av webbplatser. Chrome, Microsoft edge och Firefox. Har fixat prettier och gjort det för alla html och css samt javascript.
+Jag har testat i 4 olika typer av webbplatser. Chrome, Microsoft edge och Firefox. Har fixat prettier och gjort det för alla html och css samt javascript.
 
 ## Bilder
+
+### Bilder för hur min slutprojekt ser ut
 
 ![alt Bilder](Bilder/bildREADME.png)
 ![alt Bilder](Bilder/Skärmbild%201.png)
@@ -29,6 +31,9 @@ Jag har testat i 3 olika typer av webbplatser. Chrome, Microsoft edge och Firefo
 ![alt Bilder](Bilder/Skärmbild%205.png)
 ![alt Bilder](Bilder/Skärmbild%206.png)
 ![alt Bilder](Bilder/Skärmbild%207.png)
+
+### Bilder för att visa att min webbsida går och öppna i minst 3 olika typer av webbplatser
+
 ![alt Bilder](Bilder/skärtbild%20Microsoft%20edge.png)
 ![alt Bilder](Bilder/Skärmbild%20chrome.png)
 ![alt Bilder](Bilder/Skärmbild%20brave.png)
