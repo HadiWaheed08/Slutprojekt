@@ -1,12 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="sv">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css-filer/style.css" />
     <title>Fysik-Kunskap</title>
   </head>
-
   <body class="FysikTesta">
     <header>
       <nav>
@@ -30,6 +29,7 @@
         </section>
       </nav>
       <h1>Fysik Quiz</h1>
+      <!-- vad som behövs för quiz -->
       <div class="FysikTestaContainer">
         <div class="box3">
           <div id="quiz">
@@ -37,29 +37,30 @@
             <div id="val"></div>
             <button id="nextBtn">Nästa</button>
           </div>
-          <div id="svar" class="hidden"></div>
+          <div id="resultat" class="hidden"></div>
           <button id="StartaOmBtn" class="hidden">Starta om Quiz</button>
           <div id="timer">sekunder kvar: <span id="tid">30</span>s</div>
         </div>
       </div>
     </header>
+    <!-- Gjorde en feedback system -->
     <div class="feedback-box">
-  <h2>Feedback</h2>
+      <h2>Feedback</h2>
 
-  <form id="feedbackForm">
-    <input type="text" id="username" placeholder="Namn" required>
+      <form id="feedbackForm">
+        <input type="text" id="username" placeholder="Namn" required />
 
-    <textarea id="message" placeholder="Skriv här..." required></textarea>
+        <textarea id="message" placeholder="Skriv här..." required></textarea>
 
-    <button type="submit">Skicka</button>
-  </form>
-<!-- Gjorde en feedback system -->
-  <div id="feedbackResult"></div>
-</div>
+        <button type="submit">Skicka</button>
+      </form>
+
+      <div id="feedbackResult"></div>
+    </div>
+    <footer class="Footer">
+      <p>&copy; Fysik-Kunskap</p>
+      <!-- Visa att det min webbsida -->
+    </footer>
     <script src="../JavaScript/JavaScript.js"></script>
   </body>
-  <footer class="Footer">
-    <p>&copy; Fysik-Kunskap</p>
-    <!-- Visa att det min webbsida -->
-  </footer>
 </html>
