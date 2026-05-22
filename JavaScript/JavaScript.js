@@ -77,11 +77,7 @@ feedbackForm.addEventListener("submit", (e) => {
 });
 
 function sanitizeInput(input) {
-<<<<<<< HEAD
-    return input.replace(/[<>@£${\`¨*^_-}]/g, "");
-=======
   return input.replace(/[<>@£${`|*'~¨^}]/g, "");
->>>>>>> 940b4ce74772eabd2ad2c63683d351a7c758bfa4
 }
 
 //Startar quiz

@@ -18,9 +18,6 @@ I min fysiktesta kan du testa dig på dina kunskaper inom fysik genom en quiz. D
 
 <<<<<<< HEAD
 Jag har testat i 3 olika typer av webbplatser. Chrome, Microsoft edge och Firefox. Har fixat prettier och gjort det för alla html och css samt javascript.
-=======
-Jag har testat i 4 olika typer av webbplatser. Chrome, Microsoft edge och Firefox, och det funkar.
->>>>>>> 940b4ce74772eabd2ad2c63683d351a7c758bfa4
 
 ## Bilder
 
@@ -32,3 +29,6 @@ Jag har testat i 4 olika typer av webbplatser. Chrome, Microsoft edge och Firefo
 ![alt Bilder](Bilder/Skärmbild%205.png)
 ![alt Bilder](Bilder/Skärmbild%206.png)
 ![alt Bilder](Bilder/Skärmbild%207.png)
+![alt Bilder](Bilder/skärtbild%20Microsoft%20edge.png)
+![alt Bilder](Bilder/Skärmbild%20chrome.png)
+![alt Bilder](Bilder/Skärmbild%20brave.png)
