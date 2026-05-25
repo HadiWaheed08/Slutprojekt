@@ -197,6 +197,7 @@ h1 {
   color: #e5e7eb;
   font-size: 18px;
 }
+
 .feedback-box {
   margin-top: 2rem;
   padding: 20px;
@@ -210,7 +211,7 @@ h1 {
   margin: 10px 0;
   padding: 10px;
 }
-
+/* Anpassar hemsidan efter skärmstorlek */
 @media (max-width: 768px) {
   nav ul {
     grid-template-columns: 1fr;
