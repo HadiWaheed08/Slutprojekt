@@ -22,17 +22,17 @@ Jag har testat i 4 olika typer av webbplatser. Chrome, Microsoft edge och Firefo
 
 ### Bilder för hur min slutprojekt ser ut
 
-![alt Bilder](Bilder/bildREADME.png)
-![alt Bilder](Bilder/Skärmbild%201.png)
-![alt Bilder](Bilder/Skärmbild%202.png)
-![alt Bilder](Bilder/Skärmbild3.png)
-![alt Bilder](Bilder/Skärmbild%204.png)
-![alt Bilder](Bilder/Skärmbild%205.png)
-![alt Bilder](Bilder/Skärmbild%206.png)
-![alt Bilder](Bilder/Skärmbild%207.png)
+![Inspo bilder](Bilder/bildREADME.png)
+![Index html](Bilder/Skärmbild%201.png)
+![Info html](Bilder/Skärmbild%202.png)
+![Info html](Bilder/Skärmbild3.png)
+![Info html](Bilder/Skärmbild%204.png)
+![Info html](Bilder/Skärmbild%205.png)
+![Quiz html](Bilder/Skärmbild%206.png)
+![Quiz html](Bilder/Skärmbild%207.png)
 
 ### Bilder för att visa att min webbsida går och öppna i minst 3 olika typer av webbplatser
 
-![alt Bilder](Bilder/skärtbild%20Microsoft%20edge.png)
-![alt Bilder](Bilder/Skärmbild%20chrome.png)
-![alt Bilder](Bilder/Skärmbild%20brave.png)
+![Edge webbplats](Bilder/skärtbild%20Microsoft%20edge.png)
+![Chrome webbplats](Bilder/Skärmbild%20chrome.png)
+![Brave webbplats](Bilder/Skärmbild%20brave.png)
