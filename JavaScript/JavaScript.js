@@ -67,16 +67,16 @@ feedbackForm.addEventListener("submit", (e) => {
   let message = document.getElementById("message").value;
 
   /* rensar inputten */
-  username = sanitizeInput(username);
-  message = sanitizeInput(message);
+  username = RensaInput(username);
+  message = RensaInput(message);
 
   /* visar meddelandet */
   feedbackResult.textContent = `Tack ${username}! Din feedback har skickats.`;
 
   feedbackForm.reset();
 });
-/* Ränsar alla dessa tecken */
-function sanitizeInput(input) {
+/* Rensar alla dessa tecken */
+function RensaInput(input) {
   return input.replace(/[<>@£${`|*'~¨^}]/g, "");
 }
 
