@@ -1,8 +1,9 @@
+/* Alla filer följer den */
 * {
   padding: 2px;
   text-align: center;
 }
-
+/* Alla html filer har en denna bakgrund */
 body {
   background: linear-gradient(white, GREY, DARKGREY);
   background-size: 400% 400%;
@@ -20,6 +21,7 @@ body {
   }
 }
 
+/* Fixar navigation och unordered list */
 nav ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -28,12 +30,12 @@ nav ul {
   margin: 0;
   list-style: none;
 }
-
+/* Fixar navigation, unordered list, ordered list och alla a */
 nav ul li a {
   color: black;
   text-decoration: none;
 }
-
+/* Alla buttons har en sån style  */
 button {
   background-color: transparent;
   color: black;
@@ -44,16 +46,19 @@ button {
   box-sizing: border-box;
   transition: transform 0.1s;
 }
+/* När musen är över på button */
 button:hover {
   background-color: whitesmoke;
   transform: scale(1.05);
 }
+/* För index html gäller denna body style */
 .indexbody {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
+/* Inom fysik lär så kommer allt inom container följa denna style */
 .fysiklärcontainer {
   display: flex;
   flex-direction: column;
@@ -61,6 +66,7 @@ button:hover {
   width: 90%;
   margin: auto;
 }
+/* I fysik lär kommer alla bilder och allt inom box följa denna style */
 .box2 .bilder {
   width: 100%;
   max-width: 400px;
@@ -70,6 +76,7 @@ button:hover {
   border: 1px solid black;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+/* I fysik lär så kommer allt inom box följa denna style */
 .box2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -81,6 +88,7 @@ button:hover {
   background-color: white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+/* Allt inom box i index html kommer följa denna style */
 .box {
   background-color: #f5f5f5;
   border: 2px solid #ccc;
@@ -89,14 +97,16 @@ button:hover {
   width: 250px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
+/* Alla h2 inom index html box kommer följa denna style */
 .box h2 {
   font-size: 18px;
   margin-bottom: 10px;
 }
+/* I fysiklär kommer alla h2 följa denna style */
 .Fysiklär h2 {
   margin-bottom: 0;
 }
+/* I fysiktesta kommer allt inom container följa denna style */
 .FysikTestaContainer {
   display: flex;
   justify-content: center;
@@ -110,17 +120,20 @@ button:hover {
   flex-direction: column;
   transition: all 0.3s ease-in-out;
 }
+/* I fysiktesta kommer allt inom box ha denna style */
 .box3 {
   display: grid;
   grid-template-columns: 1fr;
   border-radius: 20px;
   padding: 30px;
 }
+/* Alla h1 i alla html kommer följa denna style */
 h1 {
   color: white;
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
+/* Id frågor kommer ha denna style */
 #frågor {
   display: flex;
   align-items: center;
@@ -129,11 +142,13 @@ h1 {
   font-size: x-large;
   font-weight: bold;
 }
+/* Id val kommer ha denna style */
 #val {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
+/* Id val button kommer ha denna style */
 #val button {
   margin: 0;
   padding: 10px;
@@ -149,11 +164,12 @@ h1 {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-
+/* Id val button kommer denna style gälla när man har mus över button val*/
 #val button:hover {
   transform: scale(1.03);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
 }
+/* För Id val och Startaombtn kommer denna style gälla */
 #nextBtn,
 #StartaOmBtn {
   margin-top: 1rem;
@@ -167,12 +183,14 @@ h1 {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
+/* För Id nextBtn och startaombtn kommer denna style gälla när man har mus över button */
 #nextBtn:hover,
 #StartaOmBtn:hover {
   background-color: grey;
   transform: scale(1.05);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
 }
+/* För Id resultat och när mus är över resultat kommer denna style gälla */
 #resultat,
 #resultat:hover {
   background-color: gray;
@@ -182,6 +200,7 @@ h1 {
   text-shadow: 0 0 10px black;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
 }
+/* För Id timer kommer denna style gälla */
 #timer {
   margin-top: 1rem;
   font-weight: bold;
@@ -189,22 +208,24 @@ h1 {
   color: white;
   text-shadow: 0 0 10px gray;
 }
+/* När något är hidden kommer den inte synas i fysiktesta */
 .hidden {
   display: none;
 }
+/* För footer gäller denna style */
 .Footer {
   background-color: #1f2937;
   color: #e5e7eb;
   font-size: 18px;
 }
-
+/* För allt inom feedback box kommer denna style gälla */
 .feedback-box {
   margin-top: 2rem;
   padding: 20px;
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.1);
 }
-
+/* För feedback namn och textarea kommer denna style gälla */
 .feedback-box input,
 .feedback-box textarea {
   width: 100%;

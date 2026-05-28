@@ -75,7 +75,7 @@ feedbackForm.addEventListener("submit", (e) => {
 
   feedbackForm.reset();
 });
-
+/* Ränsar alla dessa tecken */
 function sanitizeInput(input) {
   return input.replace(/[<>@£${`|*'~¨^}]/g, "");
 }
